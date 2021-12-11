@@ -9,7 +9,7 @@ const projects=[
             'Flutter','Dart','FireBase'
         ],
         img:'',
-        ur:'https://github.com/jasdeepsingh24/AttendanceApp'
+        url:'https://github.com/jasdeepsingh24/AttendanceApp'
     },
     {
         projectName:'Portfolio',

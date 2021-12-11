@@ -72,12 +72,12 @@
 .projectCard:hover {
   transform: scale(1.05);
   transition: all 0.5s ease;
-  /* color: white; */
-  /* background-color: var(--thirdColor); */
+  color: white;
+  background-color: var(--primaryColor);
 }
 .projectCard:hover .tech-badge {
-  /* color: var(--primaryColor); */
-  /* background-color: white; */
+  color: var(--primaryColor);
+  background-color: white;
 }
 .content-project {
   padding: 3vw;
