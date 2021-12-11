@@ -1,0 +1,101 @@
+.projects {
+  padding-inline: 15vw;
+  padding-top: 4vh;
+}
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: middle;
+  align-items: center;
+  /* justify-content: center; */
+}
+.heading img {
+  display: inline-block;
+  width: 25vw;
+  transition: all 0.5s ease;
+}
+.heading img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+.heading h1 {
+  display: table-cell;
+  float: left;
+  margin: 0;
+  /* text-align: center; */
+  font-size: 3vw;
+  vertical-align: middle;
+  transition: all 0.5s ease-in;
+  padding: 10px;
+}
+.heading h1:hover {
+  background-color: black;
+  color: var(--primaryColor);
+  font-weight: bolder;
+  letter-spacing: 1px;
+  transition: all 0.5s ease-in;
+}
+.code-font {
+  font-family: "Press Start 2P", cursive;
+}
+
+.parents-project {
+  /* width: 80vw; */
+  margin-inline: 15vw;
+  padding-inline: 15vw;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  transition: all 0.2 linear;
+  /* background-color: red; */
+  background-color: white;
+}
+.child-project {
+  height: auto;
+  flex: 1 1 20vw;
+  margin: 25px;
+}
+
+.projectCard {
+  border-radius: 3vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 100%;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  background-color: white;
+  /* display: flex; */
+}
+
+.projectCard:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+  /* color: white; */
+  /* background-color: var(--thirdColor); */
+}
+.projectCard:hover .tech-badge {
+  /* color: var(--primaryColor); */
+  /* background-color: white; */
+}
+.content-project {
+  padding: 3vw;
+  text-align: center;
+}
+.content-project h2 {
+  font-weight: bolder;
+  /* position: absolute; */
+}
+.tech-badge {
+  border-radius: 10px;
+  background-color: var(--primaryColor);
+  color: white;
+  width: auto;
+  padding-inline: 10px;
+  padding-block: 5px;
+  margin: 4px;
+}
+.badge-container {
+  display: flexbox;
+}

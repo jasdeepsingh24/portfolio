@@ -1,0 +1,72 @@
+.technologies {
+  margin-inline: 15vw;
+  padding-block: 2vw;
+  background-color: white;
+  height: auto;
+  /* margin-top: -45vh; */
+  border-radius: 3vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  /* position: relative; */
+}
+.technologies table {
+  padding: 40px;
+}
+.technologies h1 {
+  /* padding-top: 7vh; */
+  /* padding-bottom: ; */
+  font-size: 2.5vw;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.technologies table td {
+  height: 100px;
+  /* background-color: red; */
+}
+.technologies table img {
+  width: 7vw;
+  height: 7vw;
+  object-fit: cover;
+}
+.logo {
+  width: 7vw;
+  height: 7vw;
+  /* background-color: red; */
+}
+.technology_img {
+  margin: auto;
+  /* margin-top: -350px; */
+  left: 0;
+  right: 0;
+  display: block;
+  /* position: absolute; */
+  width: 40vw;
+  padding-bottom: 4px;
+  transition: all 0.5s ease;
+}
+.technology_img:hover {
+  transform: scale(0.95);
+  width: 30vw;
+}
+.container {
+  margin-top: -75vh;
+}
+
+.child img {
+  height: 5vw;
+  width: 5vw;
+  object-fit: contain;
+}
+.child:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+.child {
+  transition: all 0.5s ease;
+}
+/* .child:first-child {
+  background: #ffbe76;
+}
+.child:last-child {
+  background: #ff7979;
+} */

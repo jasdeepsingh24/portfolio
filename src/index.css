@@ -1,13 +1,70 @@
 body {
+  --primaryColor: #0267c1;
+  --secondaryColor: white;
+  --thirdColor: #3f3d56;
+  --thirdColorLightShade: #514e6c;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Fuzzy Bubbles", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.btn {
+  border: 2px solid var(--thirdColor);
+
+  border-radius: 2rem;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  color: var(--thirdColor);
+  transition: width 2s ease;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: var(--thirdColor);
+  color: white;
+  transition: all 0.5s ease;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.svg {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.png {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.checked {
+  color: orange;
+}
+
+.parents {
+  /* width: 80vw; */
+  margin-inline: 15vw;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  transition: all 0.2 linear;
+}
+.child {
+  height: 200px;
+  /* background: #81ecec; */
+  /* box-shadow: 0 0 20px #bac3c3; */
+  flex: 1 1 7vw;
+  margin: 20px;
 }

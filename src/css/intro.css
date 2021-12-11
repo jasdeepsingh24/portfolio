@@ -1,0 +1,46 @@
+.intro {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  /* margin-top: -30vh; */
+}
+
+.intro img {
+  width: 35%;
+  /* position: absolute; */
+  margin: auto;
+  /* margin-top: -350px; */
+  left: 0;
+  right: 0;
+  display: block;
+  transition: all 0.5s ease;
+}
+.intro img:hover {
+  transition: all 0.5s ease;
+  width: 44%;
+}
+.intro-content {
+  background-color: var(--thirdColorLightShade);
+  /* background-color: var(--primaryColor); */
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  margin-top: -2px;
+  text-align: center;
+  color: var(--secondaryColor);
+  padding-inline: 2rem;
+  /* position: absolute; */
+}
+
+.intro-content h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  /* letter-spacing: 0.3rem; */
+  padding-top: 3rem;
+}
+
+.intro-content h3 {
+  padding-inline: 20vw;
+  font-weight: normal;
+}
