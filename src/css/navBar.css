@@ -17,7 +17,7 @@ li {
 
 .navbar-content {
   padding-block: 3vh;
-  padding-inline: 2vw;
+  padding-inline: 1vw;
   font-size: large;
 }
 
@@ -48,9 +48,9 @@ a:hover {
 }
 
 .profile {
+  background-color: rgb(226, 221, 221);
+  padding: 2px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 50%;
-  width: 100px;
-  border-width: 100px;
-  border-color: aliceblue;
+  width: 10vw;
 }

@@ -50,6 +50,7 @@
 }
 .container {
   margin-top: -75vh;
+  display: block;
 }
 
 .child img {

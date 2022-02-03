@@ -7,6 +7,11 @@ import git from "./assets/technologies_logos/git.svg";
 import html from "./assets/technologies_logos/html5.svg";
 import javascript from "./assets/technologies_logos/javascript.svg";
 import react from "./assets/technologies_logos/react.svg";
+import devOps from "./assets/technologies_logos/devOps.svg";
+import css from "./assets/technologies_logos/css.svg";
+import dataFactory from "./assets/technologies_logos/data-factory.svg";
+import synapse from "./assets/technologies_logos/synapse.svg";
+import powerBI from "./assets/technologies_logos/powerBI.svg";
 
 const data=[
     {
@@ -27,27 +32,47 @@ const data=[
     {
         name:'CSS',
         stars:'4',
-        img:'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png'
+        img:css
     },
     {
         name:'React',
-        stars:'4',
+        stars:'3',
         img:react
     },
     {
         name:'Node.js',
-        stars:'5',
+        stars:'3',
         img:nodejs
     },
     {
         name:'Flutter',
-        stars:'4',
+        stars:'3',
         img:flutter
     },
     {
         name:'Firebase',
-        stars:'4',
+        stars:'3',
         img:firebase
+    },
+    {
+        name:'Azure DevOps',
+        stars:'3',
+        img:devOps
+    },
+    {
+        name:'Azure Data Factory',
+        stars:'3',
+        img:dataFactory
+    },
+    {
+        name:'Azure Synapse Analytics',
+        stars:'3',
+        img:synapse
+    },
+    {
+        name:'Power BI',
+        stars:'4',
+        img:powerBI
     },
     {
         name:'Git/GitHub',

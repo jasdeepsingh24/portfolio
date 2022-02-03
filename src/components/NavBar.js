@@ -1,5 +1,5 @@
 import React,{useRef,messages,useEffect} from 'react';
-
+import profile from "../assets/social icons/profile.jpg";
 // import social from '../socials';
 
 
@@ -25,7 +25,7 @@ const NavBar=(props)=>{
                     <a href=""></a>
                     </li>
                     <li>
-                        <img className="profile" src="https://drive.google.com/uc?id=1oahfJRDKFpEM-bRkyxbmGe2kT-r80F_Z"></img>
+                        <img className="profile" src={profile}></img>
                     {/* <a href="" ><div className="btn" onClick={props.handleScroll}>Say Hello</div></a> */}
                     </li>
                 </ul>

@@ -20,7 +20,7 @@ const Technologies=()=>{
                             return(
                                 <div class="child">
                                     <img src={item.img}></img>
-                                    {/* <Rating stars={item.stars}/> */}
+                                    <Rating stars={item.stars}/>
                                     <p>{item.name}</p>
                                     
                                 </div>

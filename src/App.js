@@ -7,6 +7,7 @@ import Technologies from './components/Technologies';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Education from './components/Education';
 
 const App=()=>{
     function handleScroll() {
@@ -23,6 +24,7 @@ const App=()=>{
             <FrontWall/>
             <Intro/>
             <Technologies/>
+            {/* <Education/> */}
             <Projects/>
             <Resume/>
             <Contact />

@@ -22,7 +22,7 @@ const projects=[
     },
     {
         projectName:'Blogging Website',
-        description:"Designed and created Android app using flutter and dart, used firebase for storing data. User can sign up as teacher or student. Teacher can create a class, mark, view or edit student’s attendance. Student can view their attendance",
+        description:"Desined and built a blogging website. User can login or create account. Users can create new blogs and read other blogs published on the website.",
         technologies:[
             'Java','JSP','MySQL','HTML','CSS','JavaScript'
         ],

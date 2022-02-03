@@ -4,6 +4,7 @@ import github from '../assets/social icons/github.svg';
 import linkedin from '../assets/social icons/linkedin.svg';
 import leetcode from '../assets/social icons/leetcode.svg';
 import hackerrank from '../assets/social icons/hackerrank.svg';
+import gmail from "../assets/social icons/gmail.svg";
 
 import '../css/navBar.css';
 
@@ -23,6 +24,10 @@ const socials=[
     {
         src:leetcode,
         name:'LeetCode'
+    },
+    {
+        src:gmail,
+        name:'Gmail'
     }
 ];
 
@@ -31,10 +36,11 @@ const SocialIcons=()=>{
 
     return(
             <>
-            <a href="https://github.com/jasdeepsingh24" target="_blank"><img className="navbar-icons"src={github}></img></a>
-            <a href="https://www.linkedin.com/in/jasdeep-singh-157563202/" target="_blank"><img className="navbar-icons"src={linkedin}></img></a>
-            <a href="https://www.hackerrank.com/jasdeepsingh2405" target="_blank"><img className="navbar-icons"src={hackerrank}></img></a>
-            <a href="https://leetcode.com/jasdeep_singh/" target="_blank"><img className="navbar-icons"src={leetcode}></img></a>
+                <a href="https://github.com/jasdeepsingh24" target="_blank"><img className="navbar-icons"src={github}></img></a>
+                <a href="https://www.linkedin.com/in/jasdeep-singh-157563202/" target="_blank"><img className="navbar-icons"src={linkedin}></img></a>
+                <a href="https://www.hackerrank.com/jasdeepsingh2405" target="_blank"><img className="navbar-icons"src={hackerrank}></img></a>
+                <a href="https://leetcode.com/jasdeep_singh/" target="_blank"><img className="navbar-icons"src={leetcode}></img></a>
+                <a href="mailto:jasdeepsingh2405@gmail.com" target="_blank"><img className="navbar-icons"src={gmail}></img></a>
             </>
     );
 }

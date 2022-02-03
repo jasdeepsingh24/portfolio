@@ -1,0 +1,38 @@
+.education {
+  /* margin-block: 5vh; */
+  padding-inline: 15vw;
+  padding-block: 2vh;
+  /* margin-block: 75vh; */
+  display: block;
+  text-align: center;
+
+  /* background-color: var(--primaryColor); */
+}
+h1 {
+  font-size: 3vw;
+  font-family: "Lobster", cursive;
+}
+.hex {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-color: var(--primaryColor);
+  width: 30em;
+  height: 25em;
+  display: inline-flex;
+  transition: all 0.5s ease;
+  border: 0;
+}
+
+.main {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.hex-odd {
+  margin-top: 12.5em;
+  padding-inline: -7em;
+}
+.hex:hover {
+  /* transform: scale(1.01); */
+  transition: all 0.5s ease;
+  background-color: var(--thirdColor);
+}
