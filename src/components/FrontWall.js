@@ -3,8 +3,7 @@ import programmer_img from '../assets/programmer.svg';
 import '../css/frontWall.css';
 
 const FrontWall=()=>{
-
-const heading1='Software Developer and Programmer.';
+const heading1='Software Developer, Programmer and Data Engineer.';
 const heading2='I design and code beautifully simple things, and I love what I do.';
     return (
         <div className="frontWall">

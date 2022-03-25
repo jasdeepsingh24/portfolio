@@ -25,7 +25,7 @@ const NavBar=(props)=>{
                     <a href=""></a>
                     </li>
                     <li>
-                        <img className="profile" src={profile}></img>
+                        {/* <img className="profile" src={profile}></img> */}
                     {/* <a href="" ><div className="btn" onClick={props.handleScroll}>Say Hello</div></a> */}
                     </li>
                 </ul>
