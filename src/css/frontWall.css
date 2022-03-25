@@ -35,3 +35,37 @@
   font-weight: normal;
   font-size: 1.5vw;
 }
+
+@media only screen and (max-width: 600px) {
+  .frontWall {
+    height: 65vh;
+  }
+  .frontWall img {
+    width: 50%;
+    transition: all 0.5s ease;
+  }
+  .frontWall-content {
+    padding-top: 15vh;
+    position: absolute;
+    margin: auto;
+    /* width: 40%; */
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+  }
+  .frontWall h1 {
+    font-size: 5vw;
+    /* letter-spacing: 0.2rem; */
+    width: auto;
+    transition: all 0.5s ease;
+  }
+
+  .frontWall h2 {
+    font-weight: normal;
+    padding-inline: 5px;
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}
