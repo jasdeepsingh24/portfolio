@@ -44,3 +44,38 @@
   padding-inline: 20vw;
   font-weight: normal;
 }
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    padding-top: 10vw;
+  }
+  .intro img {
+    width: 80%;
+  }
+
+  .intro-content h2 {
+    /* margin: 0; */
+    padding-right: 45px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    /* letter-spacing: 0.3rem; */
+    padding-top: 3rem;
+  }
+
+  .intro-content h3 {
+    padding-inline: 20vw;
+    font-weight: normal;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .intro img {
+    width: 150%;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  .intro img {
+    width: 50%;
+  }
+}

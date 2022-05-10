@@ -18,7 +18,7 @@ const projects=[
             'React','HTML','CSS','JavaScript'
         ],
         img:'',
-        url:'https://github.com/jasdeepsingh24/BloggingWebsite'
+        url:'https://github.com/jasdeepsingh24/portfolio'
     },
     {
         projectName:'Blogging Website',
